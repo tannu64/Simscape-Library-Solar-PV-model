@@ -42,8 +42,8 @@ This subsystem is ready to be dragged into any Simulink/Simscape model. It provi
    - You can remove/bypass the battery for a *pure* PV source.
 
 3. **Outputs**  
-   - PV array voltage \(\text{V}_{\mathrm{PV}}\)  
-   - PV array current \(\text{I}_{\mathrm{PV}}\)  
+   - PV array voltage 
+   - PV array current 
    - Battery current  
    - Battery SOC  
    - Output bus voltage
@@ -74,7 +74,7 @@ This subsystem is ready to be dragged into any Simulink/Simscape model. It provi
 ## Usage Instructions
 
 1. **Open/Install**  
-   - Copy `SolarPV_OptionalBattery_Subsystem.slx` into your working directory or add it to your MATLAB path.
+   - Copy `solarpvmodel.slx` into your working directory or add it to your MATLAB path.
 
 2. **Drag & Drop**  
    - Open your main Simulink model.  
@@ -133,14 +133,14 @@ If desired, create a **mask** to expose all key parameters in a single dialog bo
 
 ## License & Disclaimer
 
-- **License**: (MIT, BSD, or your preferred license).  
+- **License**: (MIT)
 - **Disclaimer**: This model is provided “as is” without warranty. Verify results with actual datasheet data or empirical measurements before critical deployments.
 
 ---
 
 ## Contact & Contributing
 
-- **Contact**: For questions or issues, please reach out via your chosen support channel (email, repository issues, etc.).  
+- **Contact**: For questions or issues, please reach out via your chosen support channel (https://www.linkedin.com/in/tanveer-hussain-277119196/).  
 - **Contributions**: Pull requests for improvements—such as advanced battery chemistry or improved PV equations—are welcome.
 
 ---
