@@ -20,7 +20,7 @@ This repository contains a **Simscape** subsystem that models a **solar photovol
 
 ## Overview
 
-- **File**: `SolarPV_OptionalBattery_Subsystem.slx`  
+- **File**: `solarpvmodel.slx`  
 - **Toolboxes Required**:  
   - MATLAB  
   - Simulink  
